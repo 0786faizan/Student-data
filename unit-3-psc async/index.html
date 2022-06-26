@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+
+            input{
+                border-radius: 10px;
+            }
+            .awesome{
+                padding: 10px;
+                font-size: 20px;
+                margin-left: 270px;
+                color :green
+                
+            }
+            .awesome1{
+                padding: 10px;
+                font-size: 30px;
+                margin-left: 270px;
+                width: 270px;
+                
+            }
+            h1{
+                text-align: center;
+            }
+            button{
+                margin-left: 580px;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: 30px;
+                padding: 10px;
+                
+
+            }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+       
+    </div>
+    <button>
+        <a href="dashboard.html">Dashboard</a>
+    </button>
+   
+    <h1>Students Data</h1>
+    <form class="awesome" id="students_data" onsubmit="storeData(event)">
+      <input class="awesome" type="text" id="name" placeholder="name"> <br> <br>
+      <input class="awesome" type="text" id="course" placeholder="course"><br> <br>
+      <input class="awesome" type="number" id="unit" placeholder="unit"><br> <br>
+        <input class="awesome" type="text" id="image" placeholder="image"><br> <br>
+      <input class="awesome" type="number" id="batch" placeholder="FT-Web 18"><br> <br>
+      <input class="awesome1" type="submit"><br>
+    
+    </form>
+</body>
+</html>
+
+<script src="index.js"></script>
